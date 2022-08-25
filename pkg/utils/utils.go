@@ -14,11 +14,13 @@ func ParseBody(r *http.Request, x interface{})  {
     }
   }
 
-  // body, err := ioutil.ReadAll(r.Body)
-  // if err == nil {
-  // 	err = json.Unmarshal([]byte(body), x)
-  // }
-  // if err != nil {
-  // 	log.Fatalf("Error parsing body %v", err)
-  // }
+ //  body, err := ioutil.ReadAll(r.Body)
+	// if err != nil {
+	// 	fmt.Printf("Get the following error: %v", err)
+	// }
+	//
+	// err = json.Unmarshal([]byte(body), x)
+	// if err != nil {
+	// 	fmt.Printf("Error at unmarshalling %v", err)
+	// }
 }
