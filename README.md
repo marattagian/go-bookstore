@@ -2,6 +2,10 @@
 
 Bookstore REST API built using Go, Gorilla Mux, Gorm ORM and Postgres database
 
+## Book Model
+
+[![riqEwN.png](https://iili.io/riqEwN.png)](https://freeimage.host/)
+
 ## Routes
 
 - POST - /book/
@@ -9,7 +13,3 @@ Bookstore REST API built using Go, Gorilla Mux, Gorm ORM and Postgres database
 - GET - /book/{id}
 - PUT - /book/{id}
 - DELETE - /book/{id}
-
-## Book Model
-
-<!-- `dbdiagram.io` -->
